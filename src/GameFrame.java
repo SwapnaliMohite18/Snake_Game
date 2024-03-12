@@ -6,10 +6,11 @@ public class GameFrame extends JFrame {
 		
 		this.add(new GamePanel());
 		this.setTitle("Snake");
+		
 		// indicates that the application should exit and terminate when the JFrame is closed by the user
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// JFrame cannot be resized by the user.
-		this.setResizable(true);
+		this.setResizable(false);
 		//It causes the window to be sized to fit the preferred size of its components and layout.
 		this.pack();
 		// make a graphical component, such as a JFrame, visible on the screen.
